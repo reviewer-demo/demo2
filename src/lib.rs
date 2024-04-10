@@ -12,3 +12,9 @@ pub fn multiply(_a: u32, _b: u32) -> u32 {
 fn test_add() {
     assert_eq!(10, add(7, 3));
 }
+
+#[test]
+fn test_mult() {
+    assert_eq!(10, multiply(5, 2));
+}
+
