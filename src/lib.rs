@@ -4,8 +4,8 @@ pub fn add(a: u32, b: u32) -> u32 {
     a + b
 }
 
-pub fn multiply(_a: u32, _b: u32) -> u32 {
-    todo!("Implement")
+pub fn multiply(a: u32, b: u32) -> u32 {
+    a * b
 }
 
 #[test]
@@ -17,4 +17,3 @@ fn test_add() {
 fn test_mult() {
     assert_eq!(15, multiply(5, 3));
 }
-
