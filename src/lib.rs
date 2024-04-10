@@ -15,6 +15,6 @@ fn test_add() {
 
 #[test]
 fn test_mult() {
-    assert_eq!(10, multiply(5, 2));
+    assert_eq!(15, multiply(5, 3));
 }
 
